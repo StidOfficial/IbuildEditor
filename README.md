@@ -15,7 +15,9 @@ Toutes suggestions où contacts ce fait pas l’intermédiaire de ce topique :  
 ## Configuration requise
 
 Système d'exploitation : Windows/Linux/Windows (requière JAVA)
+
 Mémoire (RAM)            : 1 Go
+
 Espace disque             :  100 Mo
 
 ## Installation de Ibuild Editor
