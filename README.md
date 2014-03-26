@@ -11,6 +11,7 @@ Toutes suggestions où contacts ce fait pas l’intermédiaire de ce topique :  
 #### Les développeurs de ce projet sont :
 
 - Stid (http://ibuild.fr/index.php?/user/14926-/)
+- MasterHR (http://ibuild.fr/index.php?/user/11816-/)
 
 ## Configuration requise
 
