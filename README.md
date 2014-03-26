@@ -1,4 +1,5 @@
-IbuildEditor
+# Ibuild Editor
+
 ============
 
 Ibuild Editor est un projet communautaire à ibuild.fr, qui est un éditeur web évoluer.
