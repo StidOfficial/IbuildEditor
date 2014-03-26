@@ -14,11 +14,13 @@ Toutes suggestions où contacts ce fait pas l’intermédiaire de ce topique :  
 
 ## Configuration requise
 
-Système d'exploitation : Windows/Linux/Windows (requière JAVA)
+*Ce logiciel est programmer en java donc il est nécessaire de l'avoir installer !*
 
-Mémoire (RAM) : 1 Go
+- Système d'exploitation : Windows/Linux/Windows
 
-Espace disque :  100 Mo
+- Mémoire (RAM) : 1 Go
+
+- Espace disque : 100 Mo
 
 ## Installation de Ibuild Editor
 
