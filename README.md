@@ -6,6 +6,8 @@ Ibuild Editor est un projet communautaire à ibuild.fr, qui est un éditeur web 
 
 **Ibuild Editor**, est un projet communautaire fait par *http://ibuild.fr*.
 
+Site du projet : http://stidofficial.github.io/IbuildEditor (En construction)
+
 Toutes suggestions où contacts ce fait pas l’intermédiaire de ce topique :  http://ibuild.fr/index.php?/topic/96143-/
 
 #### Les développeurs de ce projet sont :
