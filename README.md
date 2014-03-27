@@ -26,11 +26,13 @@ Toutes suggestions où contacts ce fait pas l’intermédiaire de ce topique :  
 
 ## Installation de Ibuild Editor
 
-***En cours de construction***
+Il faut vous rendre dans le fichier de configuration dans le dossier imports-files.
+
+Si vous voulez l'adapter a votre langue il faut changer lang= par le non de votre fichier (ex : EN.lang > lang=EN).
 
 ## Utilisation de Ibuild Editor
 
-***En cours de construction***
+***Veuillez patienter***
 
 ## Logs des versions
 
