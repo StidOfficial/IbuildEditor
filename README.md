@@ -34,7 +34,7 @@ Toutes suggestions où contacts ce fait pas l’intermédiaire de ce topique :  
 
 ## Logs des versions
 
-** Version 0.0.1 [Alpha] **
+**Version 0.0.1 [Alpha]**
 - Ajout de l'interface graphique
 - Ajout du système de configuration + de langage
 - Ajout du système de logs.
