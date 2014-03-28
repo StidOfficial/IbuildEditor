@@ -46,9 +46,6 @@ Ouvre un terminal est lancée le .jar qui ce trouve dans build :
 - Ajout du système de logs
 
 **Version prochaine**
--Ajout du FTP connector
--Intégration de xampp all-plateform
--Interface graphique fini
-
-
-
+- Ajout du FTP connector
+- Intégration de xampp all-plateform
+- Interface graphique fini
