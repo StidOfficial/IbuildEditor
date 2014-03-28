@@ -9,6 +9,7 @@ package ibuildeditor;
 import JFrame.IbuildEditorIndex;
 import ibuildeditor.configurationfile;
 import ibuildeditor.langfile;
+import logssystem.logstime;
 
 
 /**
@@ -21,13 +22,14 @@ public class IbuildEditor {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        logstime time = new logstime();
         configurationfile conf = new configurationfile();
         langfile lang = new langfile();
-        System.out.println("[" + conf.getProperty("logs") + "] " + conf.getProperty("msgwelcome") + " " + conf.getProperty("name") + " " + conf.getProperty("version"));
-        System.out.println("[" + conf.getProperty("logs") + "] " + "Lancement de l'interface graphique...");
+        System.out.println("[" + conf.getProperty("logs") + time + "] " + conf.getProperty("msgwelcome") + " " + conf.getProperty("name") + " " + conf.getProperty("version"));
+        System.out.println("[" + conf.getProperty("logs") + time + "] " + "Lancement de l'interface graphique...");
         IbuildEditorIndex index = new IbuildEditorIndex();
         index.setVisible(true);
-        System.out.println("[" + conf.getProperty("logs") + "] " + "Interface graphique [OK]");
+        System.out.println("[" + conf.getProperty("logs") + time + "] " + "Interface graphique [OK]");
     }
     
 }
