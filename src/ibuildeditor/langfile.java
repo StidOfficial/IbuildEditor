@@ -14,25 +14,25 @@ import javax.swing.JOptionPane;
  *
  * @author Stid
  */
-public class configurationfile {
+public class langfile {
     
-    Properties configFile;
+    Properties langFile;
     
-    public configurationfile() {
-        configFile = new java.util.Properties();
+    public langfile() {
+        langFile = new java.util.Properties();
         JOptionPane e = new JOptionPane();
 	try {
-	  configFile.load(this.getClass().getClassLoader().
-	  getResourceAsStream("imports-files/configuration.conf"));
+	  langFile.load(this.getClass().getClassLoader().
+	  getResourceAsStream("imports-files/FR.lang"));
 	}catch(Exception eta){
-                e.showMessageDialog(null,"Fichier configuration.conf introuvable !", "Fichier Introuvable", JOptionPane.ERROR_MESSAGE);
+                e.showMessageDialog(null,"Fichier FR.lang introuvable !", "Fichier Introuvable", JOptionPane.ERROR_MESSAGE);
                 System.out.println("[ERROR] " + eta);
                 System.exit(0);
 	}       
         
     }
     public String getProperty(String key) {
-	String value = this.configFile.getProperty(key);
+	String value = this.langFile.getProperty(key);
 	return value;
-    }
+    }  
 }

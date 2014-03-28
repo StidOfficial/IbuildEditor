@@ -8,6 +8,7 @@ package ibuildeditor;
 
 import JFrame.IbuildEditorIndex;
 import ibuildeditor.configurationfile;
+import ibuildeditor.langfile;
 
 
 /**
@@ -16,14 +17,17 @@ import ibuildeditor.configurationfile;
  */
 public class IbuildEditor {
     
-    configurationfile conf = new configurationfile();
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        IbuildEditorIndex index = new IbuildEditorIndex();
         configurationfile conf = new configurationfile();
+        langfile lang = new langfile();
         System.out.println("[" + conf.getProperty("logs") + "] " + conf.getProperty("msgwelcome") + " " + conf.getProperty("name") + " " + conf.getProperty("version"));
+        System.out.println("[" + conf.getProperty("logs") + "] " + "Lancement de l'interface graphique...");
+        IbuildEditorIndex index = new IbuildEditorIndex();
+        index.setVisible(true);
+        System.out.println("[" + conf.getProperty("logs") + "] " + "Interface graphique [OK]");
     }
     
 }
