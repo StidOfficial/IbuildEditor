@@ -34,15 +34,22 @@ Si vous voulez l'adapter a votre langue il faut changer lang= par le non de votr
 
 ## Utilisation de Ibuild Editor
 
-***Veuillez patienter***
+Ouvre un terminal est lancée le .jar qui ce trouve dans build :
+
+- java -jar ibuildeditor.jar
 
 ## Logs des versions
 
 **Version 0.0.1 [Alpha]**
 - Ajout de l'interface graphique
 - Ajout du système de configuration + de langage
-- Ajout du système de logs.
+- Ajout du système de logs
 
+**Version prochaine**
+
+-Ajout du FTP connector
+-Intégration de xampp all-plateform
+-Interface graphique fini
 
 
 
